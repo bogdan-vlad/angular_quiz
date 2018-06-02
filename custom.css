@@ -1,0 +1,52 @@
+body {
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Helvetica', 'Arial';
+	padding-top: 50px;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 18px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+button {
+	font-size: 18px;
+	cursor: pointer;
+}
+
+
+.container {
+	width: 480px;
+	border: 5px solid black;
+	border-radius: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#options {
+	margin: 10px 0;
+	text-align: left;
+	padding-left: 25px;
+}
+
+.next-question {
+	margin-right: 10px;
+}
+
+#score {
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
