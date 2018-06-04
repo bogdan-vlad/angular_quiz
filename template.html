@@ -1,3 +1,4 @@
+<!-- Quiz area -->
 <div class="quiz-area" ng-show="inProgress">
 	<div ng-show="!quizOver">
 		<h2 id="question">{{question}}</h2>
@@ -13,8 +14,8 @@
 
 		<div ng-show="!answerMode">
 			<button ng-click="nextQuestion()" class="next-question">Next</button>
-			<span ng-show="correctAns" class="text-primary">That is correct!</span>
-			<span ng-show="!correctAns">Sorry, that is an incorrect answer.</span>
+			<span ng-show="correctAns" class="text-primary"></span>
+			<span ng-show="!correctAns"></span>
 		</div>
 	</div>
 
@@ -28,9 +29,13 @@
 		Score: {{score}}
 	</div>
 </div>
+<!-- Quiz area -->
+
+<!-- Intro for quiz -->
 
 <div class="intro" ng-show="!inProgress">
 	<p>Welcome to my quiz</p>
-	<p>Please press on start to begin the quiz</p>
-	<button id="startQuiz" ng-click="start()">Start the Quiz</button>
+	<p>Please press start to begin the quiz</p>
+	<button id="startQuiz" ng-click="start()">Start</button>
 </div>
+<!-- Intro for quiz -->

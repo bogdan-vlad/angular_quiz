@@ -38,8 +38,10 @@ app.directive('quiz', function(quizFactory) {
 				if(ans == scope.options[scope.answer]) {
 					scope.score++;
 					scope.correctAns = true;
+					$.notify("Correct", "success");
 				} else {
 					scope.correctAns = false;
+					$.notify("Incorrect", "error");
 				}
 
 				scope.answerMode = false;

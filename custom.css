@@ -3,11 +3,13 @@ body {
 	text-align: center;
 	font-family: 'Helvetica', 'Arial';
 	padding-top: 50px;
+	background-image: url(img/question.jpg);
+	background-size: cover;
 }
 
 h2 {
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 ul {
@@ -20,15 +22,13 @@ li {
 }
 
 button {
-	font-size: 18px;
+	font-size: 20px;
 	cursor: pointer;
 }
 
 
 .container {
 	width: 480px;
-	border: 5px solid black;
-	border-radius: 20px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	margin: 0 auto;
@@ -47,6 +47,10 @@ button {
 
 #score {
 	margin-top: 10px;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
+}
+div {
+	color: white;
+	font-size: 20px;
 }
